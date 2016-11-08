@@ -41,7 +41,7 @@ game_state.main.prototype = {
         game.physics.startSystem(Phaser.Physics.ARCADE);
 
 
-        this.player = game.add.sprite(32, game.world.height - 150, 'dude');
+        this.player = game.add.sprite(32, game.world.height - 250, 'dude');
         game.physics.arcade.enable(this.player);
 
 
